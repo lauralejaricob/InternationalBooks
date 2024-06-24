@@ -1,0 +1,13 @@
+.hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--cor-cabecalho);
+    padding: 2em;
+}
+
+.rodape__titulo {
+    text-align: center;
+    font-weight: 700;
+}
