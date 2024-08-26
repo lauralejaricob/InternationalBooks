@@ -18,7 +18,7 @@
         <header class="cabeçalho">
             <div class="container"> 
                 <input type="checkbox" id="menu" class="container__botao">
-                <label for="menu">
+                <label for="menu" class="container__rotulo">
                     <span class="cabeçalho__menu-hamburguer container__imagem"></span>
                 </label>
                 <ul class="lista-menu">
@@ -38,10 +38,12 @@
             </div>
 
             <ul class="opções">
+                
                 <input type="checkbox" id="opções-menu" class="opções__botão" />
-                <label for="opções-menu">
+                <label for="opções-menu" class="opções__rotulo">
                   <li class="opções__item">Categorias</li>
                 </label>
+
                 <ul class="lista-menu">
                     <li class="lista-menu__titulo">Idiomas</li>
                     <li class="lista-menu__item">
@@ -60,11 +62,17 @@
             </ul>
 
             <div class="container">
-                <a href="#"><img src="img/heart .svg" alt="Favoritar livro" 
-                    class="container__imagem container__imagem-transparente"></a>
-                <a href="#"><img src="img/shopping-cart.svg" alt="Carrinho de compras" class="container__imagem"></a>
-                <a href="#"><img src="img/user.svg" alt="Meu perfil" class="container__imagem"></a>
+                <a href="#"><img src="img/heart .svg" alt="Favoritar livro" class="container__imagem container__imagem-transparente"></a>
+                <a href="#" class="container__link">
+                    <img src="img/shopping-cart.svg" alt="Carrinho de compras" class="container__imagem">
+                    <p class="container__texto">Minhas compras</p>
+                </a>
+                <a href="#" class="container__link">
+                    <img src="img/user.svg" alt="Meu perfil" class="container__imagem">
+                    <p class="container__texto">Meu perfil</p>
+                </a>
             </div>
+
         </header>
         <section class="banner">
             <h2 class="banner__titulo">Já sabe a que mundo você vai ir?</h2>
@@ -74,6 +82,7 @@
         <section class="carrossel">
             <h2 class="carrossel__titulo">Novas novidades</h2>
             <!-- Slider main container -->
+            <div class="carrossel__container">
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <!-- If we need pagination -->
@@ -122,6 +131,7 @@
          <section class="carrossel">
             <h2 class="carrossel__titulo">Livros mais vendidos</h2>
             <!-- Slider main container -->
+            <div class="carrossel__container">
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <!-- If we need pagination -->
@@ -164,6 +174,8 @@
                     <!-- 2º coluna -->
                      <a href="#" class="botoes__ancora">Saiba mais</a>
                  </div>
+                </div>
+            </div>
             </div>
         </section>
 
@@ -199,8 +211,9 @@
             <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
         </section>
         <hr/>
-        <footer class="rodape">
-            <h2 class="rodape__titulo">Grupo IntenationalBooks</h2>
+
+        <footer class="rodapé">
+            <h2 class="rodapé__titulo">Grupo IntenationalBooks</h2>
             <ul class="lista-rodapé">
                 <li class="lista-rodapé__titulo">Redes sociais</li>
                 <li class="lista-rodapé__item">
@@ -230,6 +243,14 @@
                 <li class="lista-rodapé__item">
                     <img src="img/png-clipart-english-second-language-foreign-language-spanish-others-english-flag-removebg-preview 1.svg" alt="bandeira inglaterra">
                     <a href="#" class="lista-rodapé__link">Books-english</a>
+                </li>
+              </ul>
+
+              <ul class="lista-rodapé">
+                <li class="lista-rodapé__titulo">Entre em contato</li>
+                <li class="lista-rodapé__item">
+                    <img src="img/whatsapp 1.svg" alt="whatsapp">
+                    <a href="#" class="lista-rodapé__link">41988598407</a>
                 </li>
               </ul>
         </footer>
